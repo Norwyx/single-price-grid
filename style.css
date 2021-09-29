@@ -139,13 +139,13 @@ ul {
 /* 375px */
 @media only screen and (max-width: 23.4375rem) {
     body {
-        height: 80rem;
+        height: 53rem;
     }
     
     .container {
         width: 19.5rem;
         height: 45.125rem;
-        margin: 4.5rem 0 4.5rem 0;
+        margin: 0 0 2rem 0;
     }  
     
     .top-section {
