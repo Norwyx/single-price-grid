@@ -1,5 +1,6 @@
 :root {
     --cyan: hsl(179, 62%, 43%);
+    --light-cyan: hsl(178, 48%, 52%);
     --bright-yellow: hsl(71, 73%, 54%);
     --light-gray: hsl(204, 43%, 93%);
     --grayish-blue: hsl(218, 22%, 67%);
@@ -16,5 +17,117 @@
 body {
     font-family: var(--ff-primary);
     font-size: 1rem;
+    font-weight: 400;
     line-height: 1.6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: var(--light-gray);
+}
+
+.container {
+    border-radius: 15px;
+    width: 39.6875rem;
+    height: 29.6875rem;
+    box-shadow: 0px 8px 32px -6px rgba(0,0,0,0.26);
+}
+
+.top-section {
+    background-color: #fff;
+    padding: 2.8125rem 3rem 2.8125rem 3rem; 
+
+}
+
+.title {
+    font-size: 1.5625rem;
+    font-weight: 700;
+    color: var(--cyan);
+}
+
+#trial {
+    font-size: 1.1875rem;
+    color: var(--bright-yellow);
+    padding-top: 1.2rem;
+}
+
+#info {
+    color: var(--grayish-blue);
+    padding-top: 0.7rem;
+}
+
+.section {
+    width: 19.84375rem;
+    height: 14.84375rem;
+}
+
+.bottom-section {
+    display: flex;
+}
+
+.left-section {
+    background-color: var(--cyan);
+    color: #fff;
+}
+
+.left-title {
+    font-size: 1.1875rem;
+    margin: 1.9rem 2.8125rem 0 2.8125rem;
+}
+
+.pricing {
+    display: flex;
+    align-items: center;
+    margin: 0.5rem 2.8125rem 0 2.8125rem;
+}
+
+.price {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.price-text {
+    opacity: 0.5;
+    padding-left: 0.8rem;
+}
+
+.left-info {
+    color: var(--light-gray); 
+    margin: -0.2rem 0 0 2.8125rem; 
+}
+
+.btn {
+    font-family: var(--ff-primary);
+    font-size: 1rem;
+    font-weight: 700;
+    background-color: var(--bright-yellow);
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 1.2rem 0 0 2.8125rem;
+    padding: 0.8rem 5rem 0.8rem 5rem;
+    transition-duration: 0.4s;
+    box-shadow: 0px 8px 32px -6px rgba(0,0,0,0.26);
+}
+
+.right-section {
+    background-color: var(--light-cyan);
+    color: #fff;
+}
+
+.right-title {
+    font-size: 1.1875rem;
+    margin: 1.9rem 2.8125rem 0.8rem 2.8125rem;   
+}
+
+ul {
+    list-style-type: none;
+    line-height: 1.35;
+}
+
+.list li {
+    opacity: 0.5;
+    font-size: 0.9rem;
+    margin: 0 0 0 2.8125rem;
 }
