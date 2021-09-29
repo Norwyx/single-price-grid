@@ -8,6 +8,10 @@
     --ff-primary: 'Karla', sans-serif;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -36,7 +40,6 @@ body {
 .top-section {
     background-color: #fff;
     padding: 2.8125rem 3rem 2.8125rem 3rem; 
-
 }
 
 .title {
@@ -130,4 +133,63 @@ ul {
     opacity: 0.5;
     font-size: 0.9rem;
     margin: 0 0 0 2.8125rem;
+}
+
+/* Mobile version */
+/* 375px */
+@media only screen and (max-width: 23.4375rem) {
+    body {
+        height: 80rem;
+    }
+    
+    .container {
+        width: 19.5rem;
+        height: 45.125rem;
+        margin: 4.5rem 0 4.5rem 0;
+    }  
+    
+    .top-section {
+        padding: 2rem 1.625rem 2.25rem 1.5rem; 
+    }
+
+    .title {
+        font-size: 1.25rem;
+    }
+
+    #trial, #info {
+        font-size: 1rem;
+        padding-top: 1.2rem;
+    }  
+
+    .section {
+        width: 19.5rem;
+        height: 14.25rem;
+    }
+
+    .bottom-section {
+        flex-direction: column;
+    }
+
+    .left-title {
+        font-size: 1.1875rem;
+        margin: 2rem 2.8125rem 0 1.5rem;
+    }
+
+    .pricing, .left-info {
+        margin: 0 2.8125rem 0 1.5rem;
+    }
+
+    .btn {
+        font-size: 1rem;
+        margin: 1.2rem 0 0 1.5rem;
+        padding: 0.8rem 6rem 0.8rem 6rem;
+    }
+
+    .right-title {
+        margin: 1.5rem 2.8125rem 1rem 1.5rem;
+    }
+
+    .list li {
+        margin: 0 0 0 1.5rem;
+    }
 }
