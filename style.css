@@ -136,6 +136,26 @@ ul {
 }
 
 /* Mobile version */
+/* 645px */
+@media only screen and (max-width: 40.3125rem) {
+    body {
+        height: 55rem;
+    }
+    
+    .container {
+        width: 24rem;
+        margin: -16rem 0 4rem 0;
+    }
+
+    .bottom-section {
+        flex-direction: column;
+    }
+
+    .section {
+        width: 24rem;
+    }
+}
+
 /* 375px */
 @media only screen and (max-width: 23.4375rem) {
     body {
